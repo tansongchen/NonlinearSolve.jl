@@ -50,6 +50,7 @@ include("wrappers.jl")
 
 include("descent/common.jl")
 include("descent/newton.jl")
+include("descent/halley.jl")
 include("descent/steepest.jl")
 include("descent/damped_newton.jl")
 include("descent/dogleg.jl")

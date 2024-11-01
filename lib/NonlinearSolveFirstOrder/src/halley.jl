@@ -1,6 +1,6 @@
 """
-    Halley(; concrete_jac = nothing, linsolve = nothing, linesearch = NoLineSearch(),
-        precs = DEFAULT_PRECS, autodiff = nothing)
+    Halley(; concrete_jac = nothing, linsolve = nothing, linesearch = missing,
+        autodiff = nothing)
 
 An experimental Halley's method implementation. Improves the convergence rate of Newton's method by using second-order derivative information to correct the descent direction.
 
